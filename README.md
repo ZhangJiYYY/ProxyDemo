@@ -1,5 +1,5 @@
 # ProxyDemo
-java动态代理、切面编程（类似于Spring IOC、AOP）
+java动态代理、自动注入、切面编程（类似于Spring IOC、AOP）
 
 正常java main方法启动
 
