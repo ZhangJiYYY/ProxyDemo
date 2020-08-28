@@ -40,10 +40,6 @@ public class PackageInfo {
         return classs;
     }
 
-    private void setClasss(List<String> classs) {
-        this.classs = classs;
-    }
-
     /**
      * 只需传入Class类名
      * @param className

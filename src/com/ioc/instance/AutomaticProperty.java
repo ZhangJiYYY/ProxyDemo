@@ -18,7 +18,6 @@ public class AutomaticProperty {
     private static AutomaticProperty automaticProperty = new AutomaticProperty();
     private final IocVessel iocVessel = IocVessel.getInstance();
     private final Map<String, ClassInfo> vessel1 = iocVessel.getVessel();
-    private final VesselRelation rel = VesselRelation.getInstance();
 
     public final void run() throws Exception {
 

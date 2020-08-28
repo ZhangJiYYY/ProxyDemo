@@ -1,7 +1,5 @@
 package com.ioc.info;
 
-import com.util.ReflectUtil;
-
 /**
  * Class信息
  */
@@ -9,10 +7,7 @@ public class ClassInfo {
     private String classPath;
     private Object obj;
     private Class<?> cls = null;
-
-    private ClassInfo() {
-    }
-
+    
     public ClassInfo(String classPath) {
         this.classPath = classPath;
     }

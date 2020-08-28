@@ -37,8 +37,6 @@ public class ScanObject {
 
     private ScanType scanType = ScanType.COMPONENT;    //扫描类型，默认扫描Class
 
-    private ScanObject() {}
-
     /**
      * 唯一构造器
      * @param scanPackage 扫描包路径，多个用";"分割

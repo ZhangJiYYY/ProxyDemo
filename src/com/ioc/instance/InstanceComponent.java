@@ -2,8 +2,6 @@ package com.ioc.instance;
 
 import com.ioc.info.ClassInfo;
 import com.ioc.ves.IocVessel;
-import com.ioc.ves.VesselRelation;
-
 import java.util.Map;
 import java.util.Set;
 
@@ -15,7 +13,6 @@ final public class InstanceComponent {
     private static InstanceComponent instanceComponent = new InstanceComponent();
     private final IocVessel iocVessel = IocVessel.getInstance();
     private final Map<String, ClassInfo> vessel1 = iocVessel.getVessel();
-    private final VesselRelation rel = VesselRelation.getInstance();
 
     private InstanceComponent(){}
 

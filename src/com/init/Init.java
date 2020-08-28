@@ -12,7 +12,7 @@ final public class Init {
     /**
      * 工程跟路径
      */
-    private static String ROOT_PAC = "com.**";
+    //private static String ROOT_PAC = "com.**";
 
     /**
      * 组件扫描包

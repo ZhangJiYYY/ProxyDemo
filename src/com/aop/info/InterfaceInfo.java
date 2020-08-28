@@ -11,9 +11,6 @@ public class InterfaceInfo {
 
     private Set<String> methodName;
 
-    private InterfaceInfo() {
-    }
-
     public InterfaceInfo(String path) {
         this.methodName = new HashSet<>();
         this.path = path;
