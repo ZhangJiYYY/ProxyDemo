@@ -16,11 +16,13 @@ final public class Init {
 
     /**
      * 组件扫描包
+     * 多个配置使用“;”分割
      */
     private static String COM_SCAN_PAC = "com.test.*.imp";
 
     /**
      * 切面扫描包
+     * 多个配置使用“;”分割
      */
     private static String ASPECT_SCAN_PAC = "com.test.handel";
 
