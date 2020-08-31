@@ -23,7 +23,7 @@ public class MainApplication {
         System.out.println("\n\nMainApplication run result :");
         application.runTest("MainApplication run test...");
 
-        System.out.println("\n\nnMainApplication runProxyTest : ");
+        System.out.println("\n\nnMainApplication runProxyTest update: ");
         application.runProxyTest();
 
         System.out.println("\n\nMainApplication run not proxy result :");
