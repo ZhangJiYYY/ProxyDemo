@@ -33,6 +33,9 @@ public class MainApplication {
         application.runService.delObj("MainApplication run not proxy three ...");
 
         System.out.println("\n\nrun not proxy two result :");
+        application.runService.delObj("MainApplication run not proxy four ...");
+
+        System.out.println("\n\nrun not proxy two result :");
         application.runService.delObj("MainApplication run not proxy two ...");
     }
 
