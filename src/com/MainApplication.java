@@ -20,17 +20,17 @@ public class MainApplication {
 
         MainApplication application = (MainApplication) IocVessel.getInstance().getApplication();
 
-        System.out.println("\n\nrun result :");
+        System.out.println("\n\nMainApplication run result :");
         application.runTest("MainApplication run test...");
 
         System.out.println("\n\nrunProxyTest c: ");
         application.runProxyTest();
 
         System.out.println("\n\nrun not proxy result :");
-        application.runService.delObj("MainApplication run run not proxy...");
-        
+        application.runService.delObj("MainApplication run not proxy...");
+
         System.out.println("\n\nrun not proxy two result :");
-        application.runService.delObj("MainApplication run run not proxy two...");
+        application.runService.delObj("MainApplication run not proxy two...");
     }
 
     public void runTest(String msg) {
