@@ -28,6 +28,9 @@ public class MainApplication {
 
         System.out.println("\n\nrun not proxy result :");
         application.runService.delObj("MainApplication run run not proxy...");
+        
+        System.out.println("\n\nrun not proxy two result :");
+        application.runService.delObj("MainApplication run run not proxy two...");
     }
 
     public void runTest(String msg) {
