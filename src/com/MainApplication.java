@@ -23,20 +23,11 @@ public class MainApplication {
         System.out.println("\n\nMainApplication run result :");
         application.runTest("MainApplication run test...");
 
-        System.out.println("\n\nnMainApplication runProxyTest update: ");
-        application.runProxyTest();
-
         System.out.println("\n\nMainApplication run not proxy result :");
         application.runService.delObj("MainApplication run not proxy ...");
         
-        System.out.println("\n\nrun not proxy three result :");
-        application.runService.delObj("MainApplication run not proxy three ...");
-
-        System.out.println("\n\nrun not proxy four result :");
-        application.runService.delObj("MainApplication run not proxy four ...");
-
-        System.out.println("\n\nrun not proxy two result :");
-        application.runService.delObj("MainApplication run not proxy two ...");
+        System.out.println("\n\nnMainApplication runProxyTest update: ");
+        application.runProxyTest();
     }
 
     public void runTest(String msg) {
